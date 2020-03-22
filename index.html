@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1 class="app-title">ToDo List</h1>
+      <button class="add-task-btn" id="add-task-btn">Add a task +</button>
+    </header>
+    
+    <div class="app-content">
+
+      <div class="tasks-list">
+
+      </div>
+
+      <div class="app-add-task-modal">
+        <button class="modal-close">
+          <svg class="icon-close">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+        <form action="#" class="add-task-form">
+          <input type="text" id="add-task-text" placeholder="Your task" required>
+          <input type="date" id="add-task-date" required>
+          <button type="submit">Save</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <script src="/js/app.js"></script>
+</body>
+</html>
